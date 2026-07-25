@@ -3467,12 +3467,12 @@
         </svg>
         <div class="rd-line"></div>
       </div>
-      <p class="album-text fu">Escanea el código QR para subir tus fotos al álbum del evento. Queremos vivir el día desde tus ojos también.</p>
+      <p class="album-text fu">Escanea el código QR para compartir tus fotos del evento con nosotros. Queremos vivir el día desde tus ojos también.</p>
       <div class="album-qr fu">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&color=4A2F73&bgcolor=F6F2FC&data=https%3A%2F%2Fphotos.app.goo.gl%2Fveronica-andres-2026" alt="QR álbum compartido Andrés y Verónica" width="240" height="240" loading="lazy" />
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&color=4A2F73&bgcolor=F6F2FC&data=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSf-qLOTAu8Qpa3YhAn3RjzdZTjfT4IsgnVeCuU_s7jqWrTZIg%2Fviewform" alt="QR formulario para compartir fotos Andrés y Verónica" width="240" height="240" loading="lazy" />
       </div>
       <br>
-      <a class="album-link fu" href="https://photos.app.goo.gl/veronica-andres-2026" target="_blank" rel="noopener noreferrer">photos.app.goo.gl/veronica-andres-2026</a>
+      <a class="album-link fu" href="https://docs.google.com/forms/d/e/1FAIpQLSf-qLOTAu8Qpa3YhAn3RjzdZTjfT4IsgnVeCuU_s7jqWrTZIg/viewform" target="_blank" rel="noopener noreferrer">Abrir formulario para compartir fotos</a>
     </section>
 
     <!-- ── 9. COMPARTIR INVITACIÓN ───────────────── -->
@@ -3492,7 +3492,7 @@
 
       <p class="label fu">Confírmanos tu asistencia</p>
       <h2 class="title rsvp-title fu">R<span class="rsvp-title-script">·</span>S<span class="rsvp-title-script">·</span>V<span class="rsvp-title-script">·</span>P</h2>
-      <p class="subtitle fu">Acompáñanos en este día tan especial. Confírmanos tu asistencia antes del 1 de julio de 2026.</p>
+      <p class="subtitle fu">Acompáñanos en este día tan especial. Confírmanos tu asistencia antes del 15 de julio de 2026.</p>
 
       <form class="rsvp-form" id="rsvp-form" onsubmit="return false;">
         <p id="rsvp-para-note" class="fu" style="display:none"></p>
@@ -4168,7 +4168,7 @@
   (function () {
     var PANEL_API = 'https://panel-invitados.vercel.app/api/confirmar';
     var RSVP_URL  = 'https://boda-veronica-y-andres.vercel.app';
-    var DEADLINE  = new Date(2026, 6, 1, 23, 59, 59, 999);
+    var DEADLINE  = new Date(2026, 6, 15, 23, 59, 59, 999);
     var frozen    = Date.now() > DEADLINE.getTime();
     var params      = new URLSearchParams(window.location.search);
     var urlPara     = (params.get('para')  || '').trim();
